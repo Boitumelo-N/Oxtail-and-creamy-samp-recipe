@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Quintessential&family=Rancho&family=Roboto:wght@300&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
     <title>Oxtail Stew and Creamy Samp Recipe</title>
   </head>
   <body>
     <div class="container">
       <h1 class="recipe-title">Oxtail Stew and Creamy Samp</h1>
       <button onclick="window.print()">Print Recipe</button>
-      <p>🍽️ 4 Servings ⏲️Prep:+-3 hours</p>
+      <p>🍽️ 4 Servings ⏲️Prep: 20 min 👩‍🍳Cook time:+-3 hours</p>
       <img class="main-image" src="src/oxtail&samp.jpeg" />
       <div class="ingredients">
         <h2 class="list">Ingredients</h2>
@@ -36,49 +39,48 @@
       </div>
       <h2 class="method">Method:</h2>
       <p>
-        Step 1: Place the samp into a bowl, then pour over the boiling water and
-        leave to stand and soak for 30 minutes. You can also soak the samp for
-        24 hours, using cold water.
+        ➤ Place the samp into a bowl, then pour over the boiling water and leave
+        to stand and soak for 30 minutes. You can also soak the samp for 24
+        hours, using cold water.
       </p>
       <p>
-        Step 2: Rinse the soaked samp, then place into a pot. Add the bay
-        leaves, salt and cover with cold water.
+        ➤ Rinse the soaked samp, then place into a pot. Add the bay leaves, salt
+        and cover with cold water.
       </p>
       <p>
-        Step 3: Bring to the boil, then turn down to a simmer and cook for 1
-        hour, checking halfway through to top up the water if necessary.
+        ➤ Bring to the boil, then turn down to a simmer and cook for 1 hour,
+        checking halfway through to top up the water if necessary.
       </p>
-      <p>Step 4: Dust oxtail in flour, salt and pepper.</p>
+      <p>➤ Dust oxtail in flour, salt and pepper.</p>
       <p>
-        Step 5: Heat oil in a pot, and then brown the oxtail in batches before
+        ➤ Heat oil in a pot, and then brown the oxtail in batches before
         removing from the pan and setting aside.
       </p>
       <p>
-        Step 6: To the same pot, add onions, carrots, bay leaf and thyme then
-        sauté until vegetables begin to soften and brown.
+        ➤ To the same pot, add onions, carrots, bay leaf and thyme then sauté
+        until vegetables begin to soften and brown.
       </p>
-      <p>Step 7: Add tomato paste and curry powder, then cook for a minute.</p>
+      <p>➤ Add tomato paste and curry powder, then cook for a minute.</p>
       <p>
-        Step 8: Add tomatoes (tinned/fresh), sugar, wine (optional) and stock
-        then bring to a simmer.
-      </p>
-      <p>
-        Step 9: Return oxtail to the pot, then cover with a lid and simmer
-        gently for 2 ½ hours or until the meat is tender.
+        ➤ Add tomatoes (tinned/fresh), sugar, wine (optional) and stock then
+        bring to a simmer.
       </p>
       <p>
-        Step 10: Give the samp a stir, the kernels will be softer, but not quite
-        cooked through and the starch will have come out of the samp and
-        thickened the mixture. Add more water to cover, then simmer for another
-        30 minutes.
+        ➤ Return oxtail to the pot, then cover with a lid and simmer gently for
+        2 ½ hours or until the meat is tender.
       </p>
       <p>
-        Step 11: Check if the samp is cooked through by tasting a few kernels
-        (if they are tender, then its ready) or mash a few kernels with a fork,
-        if they mash easily then the samp is cooked through.
+        ➤ Give the samp a stir, the kernels will be softer, but not quite cooked
+        through and the starch will have come out of the samp and thickened the
+        mixture. Add more water to cover, then simmer for another 30 minutes.
       </p>
       <p>
-        Step 12: Add the cream and season generously with salt then simmer for 5
+        ➤ Check if the samp is cooked through by tasting a few kernels (if they
+        are tender, then its ready) or mash a few kernels with a fork, if they
+        mash easily then the samp is cooked through.
+      </p>
+      <p>
+        ➤Add the cream and season generously with salt then simmer for 5
         minutes.
       </p>
       <footer>
@@ -88,15 +90,22 @@
         </a>
         , code hosted on
         <a
-          href="https://github.com/Boitumelo-N/Boitumelos-Weather-App"
+          href="https://github.com/Boitumelo-N/Oxtail-and-creamy-samp-recipe"
           target="_blank">
           GitHub</a
         >
         and website hosted on
-        <a href="https://boitumelos-weather-app.netlify.app/" target="_blank">
+        <a href="https://oxtail-and-samp-recipe.netlify.app/" target="_blank">
           Netlify
         </a>
       </footer>
     </div>
   </body>
+  <script>
+    document
+      .getElementById("printButton")
+      .addEventListener("click", function () {
+        window.print();
+      });
+  </script>
 </html>

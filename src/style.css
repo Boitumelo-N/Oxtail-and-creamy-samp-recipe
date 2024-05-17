@@ -2,10 +2,11 @@ body {
   background-color: white;
   background: url("https://t4.ftcdn.net/jpg/06/44/53/11/360_F_644531105_upALNkOxSVWPm5qUwThw75p1Q8Uz0sOW.jpg")
     no-repeat center center fixed;
-  background-size: 1000px 1000px;
+  background-size: 1100px 1100px;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -21,6 +22,7 @@ button {
 
 .recipe-title {
   text-align: center;
+  font-weight: 300px;
 }
 
 .main-image {
@@ -34,14 +36,17 @@ button {
   display: flex;
   flex-direction: column;
   flex: 1;
-  text-align: right;
+  text-align: left;
   padding: 0 auto;
-  margin: 20px;
+  margin: 40px;
   justify-content: center;
   position: absolute;
   top: 260px;
   right: 260px;
-  width: 40%;
+  width: 20%;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .ingredients ul {
@@ -64,11 +69,11 @@ button {
 }
 
 .method h2 {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .method p {
-  margin-bottom: 10px;
+  margin: 20px;
 }
 
 footer {
