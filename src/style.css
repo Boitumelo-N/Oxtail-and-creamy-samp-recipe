@@ -84,3 +84,23 @@ footer {
   color: rgba(0, 0, 0, 0.6);
   font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 10px;
+  }
+
+  .ingredients {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .ingredients ul {
+    padding-left: 20px;
+  }
+
+  .method {
+    margin: 10px;
+    padding: 10px;
+  }
+}
