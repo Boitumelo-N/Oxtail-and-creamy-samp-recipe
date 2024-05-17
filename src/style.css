@@ -1,11 +1,18 @@
 body {
   background-color: white;
+  background: url("https://t4.ftcdn.net/jpg/06/44/53/11/360_F_644531105_upALNkOxSVWPm5qUwThw75p1Q8Uz0sOW.jpg")
+    no-repeat center center fixed;
+  background-size: 1000px 1000px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   background-color: #efefef;
   padding: 20px;
   margin: 200px;
+  border-radius: 10px;
 }
 
 button {
@@ -31,15 +38,10 @@ button {
   padding: 0 auto;
   margin: 20px;
   justify-content: center;
-  position: absolute; /* Position the ingredients section */
-  top: 260px; /* Align to the top of the page */
+  position: absolute;
+  top: 260px;
   right: 260px;
   width: 40%;
-}
-
-.list {
-  text-align: right;
-  list-style: 𓐐𓎩;
 }
 
 .ingredients ul {
@@ -49,11 +51,16 @@ button {
 
 .ingredients li {
   margin-bottom: 5px;
+  position: relative;
+  padding-left: 0 auto;
 }
 
 .method {
   width: 100%;
-  padding: 80px;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 60px;
 }
 
 .method h2 {
@@ -62,4 +69,13 @@ button {
 
 .method p {
   margin-bottom: 10px;
+}
+
+footer {
+  border-top: 1px solid #f5f1fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
 }
