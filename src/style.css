@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+}
+
+.container {
+  background-color: #efefef;
+  padding: 20px;
+  margin: 200px;
+}
+
+button {
+  text-align: center;
+}
+
+.recipe-title {
+  text-align: center;
+}
+
+.main-image {
+  width: 60%;
+  height: auto;
+  margin: 20px 0 auto;
+  position: relative;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: right;
+  padding: 0 auto;
+  margin: 20px;
+  justify-content: center;
+  position: absolute; /* Position the ingredients section */
+  top: 260px; /* Align to the top of the page */
+  right: 260px;
+  width: 40%;
+}
+
+.list {
+  text-align: right;
+  list-style: 𓐐𓎩;
+}
+
+.ingredients ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.ingredients li {
+  margin-bottom: 5px;
+}
+
+.method {
+  width: 100%;
+  padding: 80px;
+}
+
+.method h2 {
+  margin-top: 20px;
+}
+
+.method p {
+  margin-bottom: 10px;
+}
